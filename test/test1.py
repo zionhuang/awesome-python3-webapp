@@ -1,3 +1,5 @@
+# 生成器 yield 和 send之间信息沟通
+
 def consumer():
     r = ""
     while True:        
