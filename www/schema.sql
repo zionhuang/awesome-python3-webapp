@@ -7,11 +7,11 @@ create database pure_blog;
 
 use pure_blog;
 
-select * from users;
-
-select name from users;
-
-grant select, insert, update, delete on pure_blog.* to 'zion'@'localhost' identified by 'zion';
+--select * from users;
+--
+--select name from users;
+--
+--grant select, insert, update, delete on pure_blog.* to 'zion'@'localhost' identified by 'zion';
 
 create table users (
     `id` varchar(50) not null,
